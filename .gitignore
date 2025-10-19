@@ -1,0 +1,41 @@
+# .env
+# API/package/
+# get_data/package/
+# update_db_API/package/
+# update_db_web/package/
+
+# *.zip
+# *.tar.gz
+# __pycache__/
+# .vscode/
+# .DS_Store
+
+
+# 环境和敏感信息
+.env
+
+# Lambda 打包依赖
+API/package/
+get_data/package/
+update_db_API/package/
+update_db_web/package/
+Ipynb
+# 打包产物
+*.zip
+*.tar.gz
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# Jupyter 缓存
+.ipynb_checkpoints/
+
+# 编辑器/系统文件
+.vscode/
+.DS_Store
+
+# Python 打包目录（如果将来需要）
+build/
+dist/
+*.egg-info/
